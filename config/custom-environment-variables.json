@@ -1,3 +1,4 @@
 {
-	"jwtPrivateKey": "Larry_jwtPrivateKey"
+	"jwtPrivateKey": "Larry_jwtPrivateKey",
+	"db": "product_api",
 }
