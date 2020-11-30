@@ -1,4 +1,4 @@
-const config = config('config');
+const config = require('config');
 module.exports = {
   url: config.get('db')
 };
