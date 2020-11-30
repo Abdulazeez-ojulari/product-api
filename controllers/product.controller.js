@@ -10,7 +10,7 @@ exports.create = (req, res) => {
   if (error) return res.status(400).send(error.details[0].message);
     
   // Create a Product
-  const product = new Product(_.pick(req.body, ['name', 'image', 'price']));
+  const product = new Product(_.pick(req.body, ['name', 'image', 'price', 'isAdmin']));
 
   // Save Product in the database
   product
