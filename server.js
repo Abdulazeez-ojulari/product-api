@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 var corsOption = {
-    origin: "http://localhost:3000"
+    origin: "https://arcane-tundra-76952.herokuapp.com"
 };
 
 app.use(cors(corsOption));
