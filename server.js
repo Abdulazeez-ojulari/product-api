@@ -21,7 +21,7 @@ if(!config.get('jwtPrivateKey')) {
 
 //connecting to database
 
-const db = require("./models/index.js");
+const db = require("./models/index");
 db.mongoose
   .connect(db.url, {
     useNewUrlParser: true,
