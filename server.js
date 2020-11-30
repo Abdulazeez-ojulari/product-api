@@ -19,7 +19,7 @@ if(!config.get('jwtPrivateKey')) {
     process.exit(1)
 }
 
-//connecting to database
+//connecting to databas
 
 const db = require("./models/index");
 db.mongoose
