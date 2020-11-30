@@ -6,19 +6,25 @@
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
     "config": "^3.3.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "helmet": "^4.2.0",
     "joi": "^17.3.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
-    "mongoose": "^5.10.16"
+    "mongoose": "^5.10.16",
+    "supertest": "^6.0.1"
   },
   "scripts": {
     "start": "node server.js",
     "start:dev": "nodemon server.js",
     "dev": "concurrently \"npm run start:dev\" \"npm run start\"",
     "test": "jest"
+  },
+  "engines": {
+    "node": "12.16.3"
   },
   "devDependencies": {
     "jest": "^26.6.3",
